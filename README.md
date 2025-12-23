@@ -1,5 +1,4 @@
-smooth_perm.py calcule le nombre de variétés de Schubert lisses dans la décomposition GLn/B. Par le théorème Lakshmibai-Sandhya, la variété de Schubert X(w) est lisse si et seulement si la permutation w évite 3412 et 4231. 
- 
+smooth_perm calcule le nombre de variétés de Schubert lisses dans la décomposition GLn/B, en utilisant le résultat de Lakshmibai-Sandhya, qui fournit un critère d'évitement pour la lissitude d'une variété de Schubert X(w).
 ![resultat](nb_smooth_perms.png)
 
-Et length_bruhat_intervals.ipynb calcule les longueurs des intervalles de Bruhat de certaines classes de permutations
+Et length_bruhat_intervals calcule les longueurs des intervalles de Bruhat de certaines classes de permutations
